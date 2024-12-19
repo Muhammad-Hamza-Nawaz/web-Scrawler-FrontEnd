@@ -12,7 +12,7 @@ import { ScraperService } from '../scraper.service';
   
 })
 export class BbcArticlesComponent implements OnInit {
-  articles: any[] = [];
+  articles: unknown[] = [];
 
   constructor(private scraperService : ScraperService) { }
 

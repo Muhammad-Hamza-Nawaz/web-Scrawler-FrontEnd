@@ -1,0 +1,6 @@
+diff --git a/src/app/bbc-articles/bbc-articles.component.ts b/src/app/bbc-articles/bbc-articles.component.ts
+--- a/src/app/bbc-articles/bbc-articles.component.ts
++++ b/src/app/bbc-articles/bbc-articles.component.ts
+@@ -15,1 +15,1 @@
+-  articles: any[] = [];
++  articles: unknown[] = [];
